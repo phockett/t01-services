@@ -35,7 +35,3 @@ entities:
     P: BL01T-EA-CAM-01
     R: ":PROC:"
     NDARRAY_PORT: DET.DET
-
-  # From changing IOC tutorial: https://epics-containers.github.io/main/tutorials/ioc_changes1.html#changing-the-ioc-instance
-  - type: epics.StartupCommand
-    command: dbLoadRecords(config/extra.db)
